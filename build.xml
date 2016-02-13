@@ -1,0 +1,20 @@
+<project name="Go Setup" default="dist" basedir=".">
+    <description>
+        Using
+    </description>
+    <property name="src" location="src"/>
+    <property name="build" location="build"/>
+    <property name="dist" location="dist"/>
+
+    <target name="project.build" depends="init">
+
+    </target>
+    <target name="init">
+        <tstamp/>
+        <mkdir dir="${build}" />
+    </target>
+
+    <target name="project.clean" description="clean up">
+        <delete dir="${build}"/>
+    </target>
+</project>
