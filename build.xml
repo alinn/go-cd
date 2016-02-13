@@ -1,4 +1,4 @@
-<project name="Go Setup" default="dist" basedir=".">
+<project name="Go Setup" default="project.build" basedir=".">
     <description>
         Using
     </description>
